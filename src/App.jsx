@@ -13,6 +13,14 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { isDark, toggleTheme } = useTheme();
   const logoSrc = isDark ? "/sp-dark.png" : "/sp-light.png";
+  useEffect(() => {
+    const lightLogo = new Image();
+    const darkLogo = new Image();
+
+    lightLogo.src = "/sp-light.png";
+    darkLogo.src = "/sp-dark.png";
+  }, []);
+
 
 
   const navItems = [
