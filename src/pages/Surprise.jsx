@@ -236,7 +236,7 @@ export default function Surprise() {
             fill={isDark ? "#d1d5db" : "#374151"}
             fontFamily="cursive"
           >
-            — from someone who believes in you 💙
+            — from your so called gottam😂💙
           </text>
         </svg>
       </motion.div>
