@@ -22,7 +22,7 @@ export default function Contact() {
     },
     {
       icon: SiGmail,
-      href: "saipriya0712@gmail.com",
+      href: "mailto:saipriya0712@gmail.com?subject=Regarding%20a%20new%20opportunity&body=Hi%20Priya,%0D%0A%0D%0AI'm%20reaching%20out%20because...",
       label: "Email",
     },
     {
